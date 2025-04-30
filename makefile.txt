@@ -1,0 +1,27 @@
+ a.out:  menu.o check_password.o sync_file.o book_ticket.o format.o reserve_ticket.o sign_in.o sign_up.o save.o cancel_ticket.o booking_details.o add_trains.o
+        cc  menu.o check_password.o sync_file.o book_ticket.o format.o reserve_ticket.o sign_in.o sign_up.o save.o cancel_ticket.o booking_details.o  add_trains.o
+
+add_trains.o:add_trains.c
+        cc - c add_trains.c
+menu.o:menu.c
+        cc - c menu.c
+check_password.o:check_password.c
+        cc - c check_password.c
+sync_file.o:sync_file.c
+        cc - c sync_file.c
+book_ticket.o:book_ticket.c
+        cc - c book_ticket.c
+format.o:format.c
+        cc - c format.c
+reserve_ticket.o:reserve_ticket.c
+        cc - c reserve_ticket.c
+sign_in.o:sign_in.c
+        cc - c sign_in.c
+sign_up.o:sign_up.c
+        cc - c sign_up.c
+save.o:save.c
+        cc - c save.c
+cancel_ticket.o:cancel_ticket.c
+        cc - c cancel_ticket.c
+booking_details.o:booking_details.c
+        cc - c booking_details.c
